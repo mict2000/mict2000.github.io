@@ -1,0 +1,55 @@
+element.style {
+}
+	header .logo 
+{
+    background-color: #4aaaa5;
+    width: max-content;
+    padding: 20px;
+    display: inline-block;
+}
+    element.style {
+}
+header nav li a {
+    color: #ccc;
+    text-align: center;
+    padding: 0 10px;
+    border-right: 1px solid #ccc;
+    text-decoration: none;
+}
+ element.style {
+}   
+    header nav li a {
+    color: #ccc;
+    text-align: center;
+    padding: 0 10px;
+    border-right: 1px solid #ccc;
+    text-decoration: none;
+}
+    header nav li:last-child a {
+    border-right: 0;
+}
+style.css:38
+header nav li a {
+    color: #ccc;
+    text-align: center;
+    padding: 0 10px;
+    border-right: 1px solid #ccc;
+    text-decoration: none;
+}
+    h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    width: auto;
+    margin-bottom: 20px;
+    color: #4aaaa5;
+}
+element.style {
+}
+style.css:59
+h2 {
+    font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    color: #4aaaa5;
+}

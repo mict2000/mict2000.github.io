@@ -1,0 +1,219 @@
+body{
+    
+}
+
+.content{
+    width:960;
+    margin:0 auto;
+}
+
+header{
+    background-color: #fff;
+    border-bottom:1px solid #999;
+    height: 80px;
+}
+
+header .logo{
+    background-color: #4aaaa5;
+    width: max-content;
+    padding: 20px;
+    display:inline-block;
+}
+
+header .logo a{
+    font-size:40px;
+    color:#fff;
+    text-decoration:none;
+}
+
+header nav{
+    float:right;
+    margin-top:25px;
+}
+
+header nav li{
+    display:inline;
+}
+
+header nav li a {
+    color:#ccc;
+    text-align:center;
+    padding:0 10px;
+    border-right:1px solid #ccc;
+    text-decoration: none;
+}
+
+header nav li:last-child a{
+    border-right:0;
+}
+
+h1{
+    font-size:30px;
+    padding-bottom:20px;
+    border-bottom:2px solid #ddd;
+    width:auto;
+    margin-bottom:20px;
+    color:#4aaaa5;
+}
+
+h2{
+    font-size:24px;
+    padding-bottom:20px;
+    border-bottom:2px solid #ddd;
+    color:#4aaaa5;
+}
+
+h3{
+    font-size:22px;
+}
+
+.body{
+    background-image: url("https://i.pinimg.com/736x/2d/37/bd/2d37bd5002f959a5cb2e9c4e93f9d33e--concrete-blocks-concrete-walls.jpg");
+    width:100%;
+    display:inline-block;
+    padding:30px 0;
+    overflow:scroll;
+    height:100%;
+}
+
+.body p, .body label{
+    font-family:sans-serif;
+    color:#666;
+}
+
+.mainContent{
+    width:610px;
+    background-color: #fff;
+    border:1px solid #999;
+    float:left;
+    padding:20px;
+}
+
+.mainContent p{
+    font-size:16px;
+    line-height:1.5em;
+}
+
+.mainContent img{
+    float:left;
+    width:150px;
+    margin-right:20px;
+}
+
+.sidebar{
+    width:230px;
+    background-color: #fff;
+    border:1px solid #999;
+    float:right;
+    padding:20px;
+}
+
+.sidebar ul{
+    margin-top:20px;
+}
+
+.sidebar li{
+    display:inline;
+}
+.sidebar li a img{
+    width:48px;
+}
+
+/*   Portfolio   */
+
+.image-wrapper {
+  box-sizing:border-box;
+  float: left;
+  margin-bottom:40px;
+  width: 50%;
+}
+
+.image-wrapper:nth-child(even)
+{
+  padding-left:5px;
+}
+
+.image-wrapper:nth-child(odd)
+{
+  padding-right:5px;
+}
+
+.image-wrapper > img {
+  width: 100%;
+}
+
+.image-wrapper > span {
+  display: inline-block;
+  width: 100%;
+}
+
+.portfolioItem{
+    width:48%;
+    height:200px;
+    margin-bottom:20px;
+}
+
+.titleBlock p{
+    background-color:#4aaaa5;
+    color:#fff;
+    text-align:center;
+    margin-top:100px;
+    padding:20px;
+}
+
+.left{
+    float:left;
+    margin-right:10px;
+}
+
+.right{
+    float:right;
+    margin-left:10px;
+}
+
+
+/*   Form   */
+
+form{
+    font-family: sans-serif;
+}
+
+label, input, textarea{
+    width:100%;
+    
+}
+
+input{
+    padding:10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+textarea{
+    height:200px;
+    border: 1px solid #ddd;
+}
+
+button{
+    background-color:#4aaaa5;
+    padding:10px;
+    color:#fff;
+    margin-top:10px;
+    border:0;
+}
+
+
+footer{
+    border-top: 5px solid #4aaaa5;
+    background-color:#666;
+    color:#fff;
+    height:50px;
+    width:100%;
+    clear:both;
+    text-align:center;
+    padding:20px;
+    font-family:sans-serif;
+    position:fixed;
+    bottom:0;
+
+}
